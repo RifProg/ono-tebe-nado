@@ -4,7 +4,7 @@ body {
     
 }
 
-
+/* Шапка */
 
 .header {
     display: grid;
@@ -25,6 +25,7 @@ body {
     letter-spacing: 0.01em;
 
 }
+
 
 
 .header_links-list {
@@ -107,6 +108,7 @@ body {
     all:unset;
 }
 
+/* Основной блок */
 
 .cover {
     font-family: Relaway, Arial ,sans-serif;
@@ -196,11 +198,6 @@ body {
     color: white;
     padding:0 50px 46px 78px;
     bottom: 100px;
-    
-    
-    
-    
-    
 
 }
 
@@ -224,8 +221,6 @@ body {
 
     letter-spacing: 90%;
 }
-
-
 
 
 .bet-button {
@@ -254,6 +249,8 @@ body {
 
 }
 
+
+/* Карточки с лотами */
 
 .lots {
     
@@ -396,6 +393,9 @@ body {
 
 }
 
+
+/* Об аукционе */
+
 .about_column {
 
     display: grid;
@@ -465,7 +465,7 @@ body {
 
 
 
-
+/* Подвал */
 
 
 .footer {
