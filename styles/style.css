@@ -11,7 +11,7 @@ body {
     grid-template-columns: 1fr 148px 1fr;
     align-items: center;
     padding: 92px 24px 96px;
-    font-family: Raleway, Arial, sans-serif;
+    font-family: Raleway;
     font-style: normal;
     letter-spacing: normal;
 }
@@ -151,17 +151,16 @@ body {
 
 .aligned-text_center {
     text-align: center;
-    line-height: 1;
-    padding-top: 70px;
+    padding-top: 25px;
     font-family: Raleway;
     font-size: 100px;
     font-weight: 700;
     line-height: 100px;
     letter-spacing: 0.3em;
-    text-align: center;
+    
     text-underline-position: from-font;
     text-decoration-skip-ink: none;
-    padding-top: 25px;
+    
 
 }
 
@@ -189,7 +188,6 @@ body {
     height:51px;
     justify-content: space-between;
     z-index: 1;
-    align-items: start;
     color: white;
     padding:0 50px 46px 78px;
     bottom: 100px;
@@ -197,8 +195,8 @@ body {
 }
 
 .cover_description-text {
-
-    word-spacing: 20px;
+    display: inline;
+    
     font-size: 22px;
     font-weight: 400px;
     line-height: 28px;
@@ -210,12 +208,11 @@ body {
     font-family: Raleway;
     justify-self: flex-start;
     padding-top: 10px;
+    padding-right: 55px;
+    word-spacing: 0.85em;
 }
 
-.cover_description-text_extended {
 
-    letter-spacing: 90%;
-}
 
 
 .bet-button {
@@ -228,7 +225,6 @@ body {
     border: 1px 0px 0px 0px;
     width: 256px;
     height: 51px;
-    border: 1px 0px 0px 0px;
     border-color: white;
     opacity: 0px;
     font-family: Raleway;
@@ -238,7 +234,8 @@ body {
     text-align: center;
     text-underline-position: from-font;
     text-decoration-skip-ink: none;
-    padding-top:10px ;
+    padding-top:5px;
+    padding-bottom: 5px;
     
 }
 
@@ -311,12 +308,14 @@ body {
 .lots_card-list {
     
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: space-around;
     list-style: none;
     height: 563px;
     padding: 0 24px;
     column-gap: 0;
+    flex-wrap: wrap;
+    align-content: space-between;
     
     
 }
@@ -326,6 +325,10 @@ body {
     
     min-height: 563px;
     width: 334px;
+    flex-grow: 1;
+    column-gap: 30px;
+    
+    
 }
 .card_type_film {
 
@@ -334,7 +337,7 @@ body {
     background-repeat: no-repeat;
     background-position: center;
     height: 100%;
-    margin:0 5px;
+    
     
 }
 
@@ -374,6 +377,7 @@ body {
     font-weight: 400;
     line-height: 23.48px;
     text-align: left;
+    font-family: Raleway;
     text-underline-position: from-font;
     text-decoration-skip-ink: none;
 
@@ -385,8 +389,8 @@ body {
 .about_column {
 
     display: grid;
-    grid-template-columns: 1fr 2fr;
-    grid-template-rows: 240px 1fr;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 25px;
     justify-items: center;
     align-items: center;
     margin-top: 146px;
@@ -396,14 +400,13 @@ body {
 }
 
 .about_logo {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    
     width: 240px;
     height: 240px;
     border-radius: 50%;
     background-color: black;
-    margin-right: 15px;
+    justify-self: center;
+    align-self: start;
     
 }
 
@@ -426,6 +429,7 @@ body {
 .about_text {
 
     
+    grid-column: span 2;
     font-family: Raleway;
     justify-self: center;
     align-self:baseline;
@@ -437,7 +441,8 @@ body {
     text-underline-position: from-font;
     text-decoration-skip-ink: none;
     padding-top: 100px;
-    padding-left: 10px;
+    
+    text-wrap:balance;
 
     
 }
@@ -446,6 +451,7 @@ body {
 
     width: 148px;
     height: 114px;
+    
     
 }
 
