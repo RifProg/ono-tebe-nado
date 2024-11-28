@@ -12,7 +12,7 @@ body {
     grid-template-columns: 1fr 148px 1fr;
     align-items: center;
     padding: 92px 24px 96px;
-    font-family: Raleway;
+    font-family: 'Raleway';
     font-style: normal;
     letter-spacing: normal;
 }
@@ -37,6 +37,7 @@ body {
     align-self: center;
     list-style: circle;
     column-gap: 32px;
+    
     letter-spacing: 0.01em; 
     text-wrap: nowrap;
     padding-left: 50px;
@@ -61,7 +62,7 @@ body {
 .header_links-list-item_no-bullet {
 
     list-style: none;
-    font-family: Raleway;
+    font-family: 'Raleway';
     font-size: 18px;
     font-weight: 400;
     line-height: 21.13px;
@@ -98,7 +99,7 @@ body {
     
     text-decoration: underline;
     margin: 5px;
-    font-family: Raleway;
+    font-family: 'Raleway';
     font-style: normal;
     font-size: 18px;
     font-weight: 400;
@@ -113,9 +114,9 @@ body {
 
 .cover {
     
-    font-family: Relaway;
+    font-family: 'Raleway';
     position: relative;
-    background-image: url(/images/cover.jpg);
+    background-image: url(../images/cover.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     width: 100%;
@@ -144,7 +145,7 @@ body {
 .aligned-text {
    
     display:block;
-    font-family: Raleway;
+    font-family: 'Raleway';
     font-size: 100px;
     font-weight: 700;
     line-height: 100px;
@@ -160,7 +161,7 @@ body {
     
     text-align: center;
     padding-top: 25px;
-    font-family: Raleway;
+    font-family: 'Raleway';
     font-size: 100px;
     font-weight: 700;
     line-height: 100px;
@@ -216,7 +217,7 @@ body {
     text-decoration-skip-ink: none;
     text-transform: uppercase;
     align-self: flex-start;
-    font-family: Raleway;
+    font-family: 'Raleway';
     justify-self: flex-start;
     padding-top: 10px;
     padding-right: 55px;
@@ -238,7 +239,7 @@ body {
     height: 51px;
     border-color: white;
     opacity: 0px;
-    font-family: Raleway;
+    font-family: 'Raleway';
     font-size: 22px;
     font-weight: 500;
     line-height: 26.83px;
@@ -260,7 +261,7 @@ body {
     display: flex;
     flex-direction: column;
     gap: 25px;
-    font-family: Raleway;
+    font-family: 'Raleway';
 }
 
 .lots_heading {
@@ -343,7 +344,7 @@ body {
 }
 .card_type_film {
 
-    background-image: url(/images/card-lot-01.jpg);
+    background-image: url(../images/card-lot-01.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -354,7 +355,7 @@ body {
 
 .card_type_book {
 
-    background-image: url(/images/card-lot-02.jpg);
+    background-image: url(../images/card-lot-02.jpg);
     height: 100%;
     background-size: cover;
     background-repeat: no-repeat;
@@ -367,7 +368,7 @@ body {
 
 .card_type_picture {
 
-    background-image: url(/images/card-lot-03.jpg);
+    background-image: url(../images/card-lot-03.jpg);
     height: 100%;
     background-size: cover;
     background-repeat: no-repeat;
@@ -390,7 +391,7 @@ body {
     font-weight: 400;
     line-height: 23.48px;
     text-align: left;
-    font-family: Raleway;
+    font-family: 'Raleway';
     text-underline-position: from-font;
     text-decoration-skip-ink: none;
 
@@ -439,7 +440,7 @@ body {
 
     justify-self: start;
     text-transform: uppercase;
-    font-family: Raleway;
+    font-family: 'Raleway';
     font-size: 40px;
     font-weight: 700;
     line-height: 46.96px;
@@ -455,7 +456,7 @@ body {
 
     
     grid-column: span 2;
-    font-family: Raleway;
+    font-family: 'Raleway';
     justify-self: center;
     align-self:baseline;
     font-size: 20px;
@@ -512,7 +513,7 @@ body {
     font-size: 18px;
     line-height: 24.3px;
     width: 240.52px;
-    font-family: Raleway;
+    font-family: 'Raleway';
     font-weight: 400;
     text-align: left;
     text-decoration-skip-ink: none;
@@ -529,7 +530,7 @@ body {
     justify-content: center;
     align-items: center;
     list-style: none;
-    font-family: Raleway;
+    font-family: 'Raleway';
     font-size: 18px;
     font-weight: 400;
     line-height: 21.13px;
