@@ -7,6 +7,7 @@ body {
 /* Шапка */
 
 .header {
+    
     display: grid;
     grid-template-columns: 1fr 148px 1fr;
     align-items: center;
@@ -30,6 +31,7 @@ body {
 
 
 .header_links-list {
+    
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -78,6 +80,7 @@ body {
 }
 
 .header_address {
+    
     justify-self: end;
     align-self: center;
     text-align: left;
@@ -93,6 +96,7 @@ body {
 
 .tel,
 .mailto {
+    
     text-decoration: underline;
     margin: 5px;
     font-family: Raleway;
@@ -109,7 +113,8 @@ body {
 /* Основной блок */
 
 .cover {
-    font-family: Relaway, Arial ,sans-serif;
+    
+    font-family: Relaway;
     position: relative;
     background-image: url(/images/cover.jpg);
     background-size: cover;
@@ -130,6 +135,7 @@ body {
 
 }
 .cover_title {
+    
     position: relative;
     padding: 165px 50px 237px;
     color: white;
@@ -137,6 +143,7 @@ body {
 }
 
 .aligned-text {
+   
     display:block;
     font-family: Raleway;
     font-size: 100px;
@@ -151,6 +158,7 @@ body {
 }
 
 .aligned-text_center {
+    
     text-align: center;
     padding-top: 25px;
     font-family: Raleway;
@@ -166,16 +174,19 @@ body {
 }
 
 .aligned-text_right {
+    
     text-align: right;
     line-height: 1;
     padding-top: 20px;
 }
 
 .letter-spacing-extended {
+    
     letter-spacing: 0.6em;
 }
 
 .no-letter-spacing {
+    
     letter-spacing: 0em;
 }
 
@@ -196,8 +207,8 @@ body {
 }
 
 .cover_description-text {
-    display: inline;
     
+    display: inline;
     font-size: 22px;
     font-weight: 400px;
     line-height: 28px;
@@ -298,7 +309,6 @@ body {
 .card_text {
 
     z-index: 1;
-    
     font-size: 20px;
     font-weight: 400;
     line-height: 24px;
@@ -367,6 +377,7 @@ body {
 }
 
 .lots_look-more-link {
+    
     display: block;
     border-style: none;
     background-color: transparent;
@@ -402,8 +413,6 @@ body {
 
 .about_column {
 
-    
-    
     justify-self: center;
     align-self: start;
     padding: 0 24px 15px;
@@ -458,7 +467,6 @@ body {
     text-underline-position: from-font;
     text-decoration-skip-ink: none;
     padding-top: 100px;
-    
     text-wrap:balance;
 
     
@@ -508,7 +516,6 @@ body {
     font-family: Raleway;
     font-weight: 400;
     text-align: left;
-    text-underline-position: from-font;
     text-decoration-skip-ink: none;
     padding-top: 30px;
 
@@ -536,6 +543,7 @@ body {
 }
 
 .footer_links-list-item {
+    
     text-decoration: underline;
 }
 
