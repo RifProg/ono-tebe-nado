@@ -80,9 +80,7 @@
     text-decoration: underline;
     margin: 5px;
     font-style: normal;
-    font-size: 18px;
     font-weight: 400;
-    line-height: 24.3px;
     text-underline-position: from-font;
     text-decoration-skip-ink: none;
     padding-right: 55px;
@@ -111,8 +109,7 @@
     z-index: 0;
     padding: 165px 50px 0;
     margin-bottom: 179px; 
-    
-    
+
 }
 
 .overlay {
@@ -317,7 +314,6 @@
     list-style: none;
     padding: 0 24px;
     gap: 24px;
-    flex-wrap: wrap;
     align-content: space-between;
     
     
