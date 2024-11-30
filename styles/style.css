@@ -213,11 +213,11 @@
 .bet-button {
 
     color: white;
-    
+    font-family: 'Raleway', sans-serif;
     box-sizing: border-box;
     background-color: transparent;
     text-transform: uppercase;
-    border: 1px 0px 0px 0px;
+    border: 1px solid #fff;;
     width: 256px;
     height: 51px;
     border-color: white;
@@ -354,7 +354,7 @@
     display: block;
     border-style: none;
     background-color: transparent;
-    
+    font-family: 'Raleway', sans-serif;
     padding-top: 28px;
     padding-left: 65px;
     text-decoration: underline;
@@ -481,7 +481,7 @@
 
 }
 
-.header_address_footer {
+.header_address_bottom {
 
     padding-top: 17px;
 }
